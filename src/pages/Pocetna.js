@@ -6,7 +6,7 @@ import NavBar from "../components/NavBar";
 function Pocetna() {
   return (
     <div className="container2">
-      <img src={require("../slike/logo-with-bakehouse.png")} alt="Instagram logo" />
+      <img src={require("../slike/logo-with-bakehouse.png")} alt="Instagram logo" className="main-logo"/>
       <NavBar />
       <Footer />
     </div>

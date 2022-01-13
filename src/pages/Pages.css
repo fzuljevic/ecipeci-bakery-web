@@ -11,7 +11,7 @@ body {
   align-content: space-between;
 }
 
-img {
+.main-logo {
   display: block;
   background: none;
   width: 250px;
@@ -23,34 +23,65 @@ img {
 
 .logo-notext {
   position: fixed;
-  width: 80px;
+  width: 75px;
   top: 1%;
   left: 95%;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 300px){
+  .logo-notext {
+    position: fixed;
+    top: 1%;
+    left: 40%;
+  }
+}
+
+@media (max-width: 600px) {
   body {
     background-image: url(../slike/bckground.jpg);
   }
-  img {
+  /* img {
     top: 35%;
     left: 18%;
     width: 60%;
     z-index: -1000;
-  }
+  } */
+
   .logo-notext {
     position: fixed;
-    width: 80px;
+    top: 1%;
+    left: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .logo-notext {
+    position: fixed;
+    top: 1%;
+    left: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-notext {
+    position: fixed;
+    top: 1%;
+    left: 85%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .logo-notext {
+    position: fixed;
     top: 1%;
     left: 90%;
   }
 }
 
-/* footer.img{
-  position: absolute;
-  left: 50%;
-  bottom: -20px;
-  width: 40px;
-  height: 40px;
-  margin-left: -20px;
-} */
+@media only screen and (min-width: 1200px) {
+  .logo-notext {
+    position: fixed;
+    top: 1%;
+    left: 93%;
+  }
+}
