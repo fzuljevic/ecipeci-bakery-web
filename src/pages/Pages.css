@@ -1,4 +1,4 @@
-body {
+/* body {
   background-image: url("../slike/bckground_a.png");
 }
 
@@ -40,17 +40,17 @@ body {
   body {
     background-image: url(../slike/bckground.jpg);
   }
-  /* img {
+  .main-logo {
     top: 35%;
     left: 18%;
     width: 60%;
     z-index: -1000;
-  } */
+  } 
 
   .logo-notext {
     position: fixed;
     top: 1%;
-    left: 80%;
+    left: 78%;
   }
 }
 
@@ -83,5 +83,62 @@ body {
     position: fixed;
     top: 1%;
     left: 93%;
+  }
+} */
+
+
+body {
+  background-image: url("../slike/bckground_a.png");
+}
+
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.main-logo {
+  display: block;
+  background: none;
+  width: 250px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+}
+
+.logo-notext {
+  position: fixed;
+  width: 75px;
+  right: 1%;
+  top: 1%;
+}
+
+@media (max-width: 350px){
+  .logo-notext {
+    position: fixed;
+    right: 1%;
+    top: 1%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(../slike/bckground.jpg);
+  }
+  /* img {
+    top: 35%;
+    left: 18%;
+    width: 60%;
+    z-index: -1000;
+  } */
+
+  .logo-notext {
+    position: fixed;
+    top: 1%;
+    right: 1%;
   }
 }

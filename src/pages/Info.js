@@ -1,18 +1,22 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
-import './Pages.css'
-
+import React from "react";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import "./Pages.css";
 
 function Info() {
-    return (
-        <div>
-            <div className='container2'>
-                <NavBar/>
-                <Footer/>
-            </div>
-        </div>
-    )
+  return (
+    <div>
+      <div className="container2">
+        <img
+          src={require("../slike/logo-notext-black.png")}
+          alt="logo"
+          className="logo-notext"
+        />
+        <NavBar />
+        <Footer />
+      </div>
+    </div>
+  );
 }
 
-export default Info
+export default Info;

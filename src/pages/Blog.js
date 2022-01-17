@@ -5,12 +5,15 @@ import "./Pages.css";
 
 function Blog() {
   return (
-      <div className="container2">
-        <img src={require("../slike/logo-notext-black.png")} alt="logo" className="logo-notext"/>
-        <NavBar />
-        <Footer />
-      </div>
-
+    <div className="container2">
+      <img
+        src={require("../slike/logo-notext-black.png")}
+        alt="logo"
+        className="logo-notext"
+      />
+      <NavBar />
+      <Footer />
+    </div>
   );
 }
 
