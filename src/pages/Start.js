@@ -1,15 +1,15 @@
 import React from "react";
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
 import "./Pages.css";
+import NavBar from "../components/NavBar";
 
-function Lokacije() {
+function Start() {
   return (
     <div className="container2">
       <img
-        src={require("../slike/logo-notext-black.png")}
-        alt="logo"
-        className="logo-notext"
+        src={require("../slike/logo-with-bakehouse.png")}
+        alt="Instagram logo"
+        className="main-logo"
       />
       <NavBar />
       <Footer />
@@ -17,4 +17,4 @@ function Lokacije() {
   );
 }
 
-export default Lokacije;
+export default Start;

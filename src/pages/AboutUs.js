@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import "./Pages.css";
 
-function ONama() {
+function AboutUs() {
   return (
     <div>
       <div className="container2">
@@ -19,4 +19,4 @@ function ONama() {
   );
 }
 
-export default ONama;
+export default AboutUs;

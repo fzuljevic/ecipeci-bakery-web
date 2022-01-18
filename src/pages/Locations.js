@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import "./Pages.css";
 
-function Kruh() {
+function Locations() {
   return (
     <div className="container2">
       <img
@@ -17,4 +17,4 @@ function Kruh() {
   );
 }
 
-export default Kruh;
+export default Locations;

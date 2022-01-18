@@ -1,15 +1,15 @@
 import React from "react";
 import Footer from "../components/Footer";
-import "./Pages.css";
 import NavBar from "../components/NavBar";
+import "./Pages.css";
 
-function Pocetna() {
+function Bread() {
   return (
     <div className="container2">
       <img
-        src={require("../slike/logo-with-bakehouse.png")}
-        alt="Instagram logo"
-        className="main-logo"
+        src={require("../slike/logo-notext-black.png")}
+        alt="logo"
+        className="logo-notext"
       />
       <NavBar />
       <Footer />
@@ -17,4 +17,4 @@ function Pocetna() {
   );
 }
 
-export default Pocetna;
+export default Bread;

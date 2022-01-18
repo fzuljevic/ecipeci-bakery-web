@@ -12,7 +12,7 @@ export const SideBarData = [
     },
     {
         title: 'Kruh',
-        path: '/kruh',
+        path: '/bread',
         className: 'nav-text'
     },
     {
@@ -22,7 +22,7 @@ export const SideBarData = [
     },
     {
         title: 'O nama',
-        path: '/o-nama',
+        path: '/about-us',
         className: 'nav-text'
     },
     {

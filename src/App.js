@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Pocetna from "./pages/Pocetna";
-import Kruh from "./pages/Kruh";
-import Lokacije from "./pages/Lokacije";
-import ONama from "./pages/ONama";
+import Locations from "./pages/Locations";
 import Blog from "./pages/Blog";
 import Info from "./pages/Info";
+import Start from "./pages/Start";
+import AboutUs from "./pages/AboutUs";
+import Bread from "./pages/Bread";
 // import Col from 'react-bootstrap/Col';
 
 function App() {
@@ -15,10 +15,10 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" exact element={<Pocetna />} />
-          <Route path="/kruh" element={<Kruh />} />
-          <Route path="/lokacije" element={<Lokacije />} />
-          <Route path="/o-nama" element={<ONama />} />
+          <Route path="/" exact element={<Start />} />
+          <Route path="/bread" element={<Bread />} />
+          <Route path="/lokacije" element={<Locations />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/info" element={<Info />} />
         </Routes>
